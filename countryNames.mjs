@@ -3,7 +3,7 @@ export function process(inputData, output) {
         const names = {
             DE: "Germany",
             EU: "European Union",
-            EA: "Euro Area"
+            EA: "Euro area"
         }
         for (const key in names) {
             if(output.categories.countries.has(key)) {
